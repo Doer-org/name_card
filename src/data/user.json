@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hukuda Kota",
+    "twitter": "https://twitter.com/KOUTA_FD",
+    "github": "https://github.com/Kouta-fd",
+    "description": "こんにちは!!!!",
+    "FavoriteLanguages": ["JavaScript", "Vue", "React"]
+  },
+  {
+    "name": "Onishi Kengo",
+    "twitter": "https://twitter.com/donennnn",
+    "github": "https://github.com/nisi0929",
+    "description": "フロントエンド頑張りたいけどバックエンドも頑張りたい！！！！！",
+    "FavoriteLanguages": ["Ruby", "TypeScript"]
+  }
+]
