@@ -1,10 +1,11 @@
-import User from '../data/user.json'
+import Users from '../data/user.json'
 import { NameCard } from './NameCard'
+
 export const Main = () => {
   return (
     <div>
-      {User.map((user) => {
-        return <NameCard />
+      {Users.map((user) => {
+        return <NameCard user={user} />
       })}
     </div>
   )
