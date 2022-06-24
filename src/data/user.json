@@ -1,18 +1,37 @@
 [
   {
     "name": "Hukuda Kota",
-    "image": "",
+    "image": "Kouta.png",
     "twitter": "https://twitter.com/KOUTA_FD",
     "github": "https://github.com/Kouta-fd",
     "description": "こんにちは!!!!",
-    "favoriteLanguages": ["JavaScript", "Vue", "React"]
+    "favoriteLanguages": [
+      {
+        "lang": "JavaScript",
+        "link": "https://user-images.githubusercontent.com/70254634/147387634-d0710671-004a-4285-8d49-b16ae0197144.png"
+      },
+      {
+        "lang": "React",
+        "link": "https://user-images.githubusercontent.com/70254634/147387636-1bcbed37-db56-4e7a-9654-83e66f1e4115.png"
+      },
+      { "lang": "Vue", "link": "https://jp.vuejs.org/images/logo.svg" }
+    ]
   },
   {
     "name": "Onishi Kengo",
-    "image": "",
+    "image": "Ohnishi.png",
     "twitter": "https://twitter.com/donennnn",
     "github": "https://github.com/nisi0929",
-    "description": "フロントエンド頑張りたいけどバックエンドも頑張りたい！！！！！",
-    "favoriteLanguages": ["Ruby", "TypeScript"]
+    "description": "同志社大学　政策学部B3 フロントエンドエンジニアとして頑張っていきたいです。ただ、RailsやNode.jsにも興味があります.. ",
+    "favoriteLanguages": [
+      {
+        "lang": "Ruby",
+        "link": "https://www.notion.so/image/https%3A%2F%2Fuser-images.githubusercontent.com%2F70254634%2F147387640-102be7b0-2297-4d76-9223-c464556279f6.png?table=block&id=06a49123-3a72-49e9-a09b-26a74c62e413&spaceId=44374551-1805-4af4-92ea-7a761749bb6a&width=250&userId=f96f8364-89a9-4993-8b73-0bd193d0a72a&cache=v2"
+      },
+      {
+        "lang": "TypeScript",
+        "link": "https://user-images.githubusercontent.com/70254634/147387625-66a29482-7041-447d-a817-32c356ef3f21.png"
+      }
+    ]
   }
 ]

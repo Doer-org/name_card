@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+html {
+  height: 100%;
+}
+body {
+  /* font-family: 'Shippori Mincho B1', serif; */
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+.doer {
+  background-color: #d19cec;
+}
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
