@@ -6,7 +6,7 @@ import twitter from '../assets/img/twitter.png'
 import github from '../assets/img/github.png'
 export const NameCard: FC<{ user: User }> = ({ user }) => {
   return (
-    <div className="grid grid-cols-1 grid-rows-1 shadow-2xl bg-white mx-3 my-16">
+    <div className="shadow-2xl bg-white mx-3 my-16 flex flex-col">
       <div className="grid grid-cols-1  text-center bg-gradient-to-r from-purple-400 via-pink-300 to-red-500">
         <div className="text-left">
           <img src={logo} alt="logo" className="w-16 h-16 mx-3" />
@@ -17,7 +17,7 @@ export const NameCard: FC<{ user: User }> = ({ user }) => {
           className="round w-20 h-20 shadow-2xl m-auto mt-10"
         />
         <p className="text-white mb-10">{user.name}</p>
-        <div className="flex justify-end">
+        <div className="flex justify-end mb-3">
           <a href={user.twitter}>
             <img src={twitter} alt="logo" className="w-8 h-8 mx-3" />
           </a>
@@ -28,7 +28,7 @@ export const NameCard: FC<{ user: User }> = ({ user }) => {
       </div>
 
       <div className="my-10 mx-5 grid grid-cols-1 grid-rows-1">
-        <p className=" h-24 text-left">{user.description}</p>
+        <p className="text-left">{user.description}</p>
         <p className="mt-10">Favorite Languages!!</p>
         <div className="grid grid-cols-1 md:grid-cols-3 my-2 ">
           {user.favoriteLanguages.map((lang) => {
