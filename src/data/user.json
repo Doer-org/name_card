@@ -1,20 +1,24 @@
 [
   {
-    "name": "Hukuda Kota",
+    "name": "Fukuda Kota",
     "image": "Kouta.png",
     "twitter": "https://twitter.com/KOUTA_FD",
     "github": "https://github.com/Kouta-fd",
-    "description": "こんにちは!!!!",
+    "description": "Webフロントが好きです。趣味は散歩、アニメ鑑賞、ゲームです。",
     "favoriteLanguages": [
       {
         "lang": "JavaScript",
         "link": "https://user-images.githubusercontent.com/70254634/147387634-d0710671-004a-4285-8d49-b16ae0197144.png"
       },
       {
+        "lang": "TypeScript",
+        "link": "https://user-images.githubusercontent.com/70254634/147387625-66a29482-7041-447d-a817-32c356ef3f21.png"
+      },
+      { "lang": "Vue", "link": "https://jp.vuejs.org/images/logo.svg" },
+      {
         "lang": "React",
         "link": "https://user-images.githubusercontent.com/70254634/147387636-1bcbed37-db56-4e7a-9654-83e66f1e4115.png"
-      },
-      { "lang": "Vue", "link": "https://jp.vuejs.org/images/logo.svg" }
+      }
     ]
   },
   {
@@ -31,6 +35,10 @@
       {
         "lang": "TypeScript",
         "link": "https://user-images.githubusercontent.com/70254634/147387625-66a29482-7041-447d-a817-32c356ef3f21.png"
+      },
+      {
+        "lang": "React",
+        "link": "https://user-images.githubusercontent.com/70254634/147387636-1bcbed37-db56-4e7a-9654-83e66f1e4115.png"
       }
     ]
   }
