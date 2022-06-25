@@ -18,10 +18,10 @@ export const NameCard: FC<{ user: User }> = ({ user }) => {
         />
         <p className="text-white mb-10">{user.name}</p>
         <div className="flex justify-end mb-3">
-          <a href={user.twitter}>
+          <a className="hover:opacity-50 transition" href={user.twitter}>
             <img src={twitter} alt="logo" className="w-8 h-8 mx-3" />
           </a>
-          <a href={user.github}>
+          <a className="hover:opacity-50 transition" href={user.github}>
             <img src={github} alt="logo" className="w-8 h-8 mx-3" />
           </a>
         </div>
